@@ -93,8 +93,8 @@ location of annual solar irradiation calculated in the graph above. A failure is
 For each of the two data arrays used, the lower control limit and a weighted moving average were calculated. Only the lower control limit was used as we only care if the solar farm power production drops unexpectedly. A trailing weighted moving average was used to calculate the total statistics from the data set, as the amount of power that the solar farm can produce varies greatly throughout the year due to the seasons and weather trends. From this, the data is processed and flags the need for maintenance if the mean power of solar production for a day drops beneath the lower control limit. Data arrays and script generation for those can be found in /cloud/project/Sample Data & Generation, but are not included in the main customer script. These graphs can be found below:
 
 
-![Solar Panel Control Chart](/cloud/project/Images/solarpanel1.png "Data Array #1")
-![Solar Panel Control Chart](/cloud/project/Images/solarpanel2.png "Data Array #2")
+![Solar Panel Control Chart](solarpanel1.png "Data Array #1")
+![Solar Panel Control Chart](solarpanel2.png "Data Array #2")
 
 
 The former graph is based on data set 1 and flags no maintenance necessary. The latter graph, has a drop in solar power production, and the script successfully flags maintenance necessary starting at day 250. 
@@ -136,7 +136,7 @@ $$
 
 Finally, the lifetime_dist function calls both the fsolar and tsolar functions. It uses the fsolar function to graph the lifetime distribution of the solar farm by multiplying the resulting failure probabilities by the total number of solar panels on the farm. The calculated time in years from the tsolar functions are printed for the user to view, as these are convenient markers for required maintenance checks. 
 
-![Expected Solar Panel Failures Over Time Based on Weibull Lifetime Distribution](/cloud/project/Images/Failureplot.png "Expected Solar Panel Failures Over Time Based on Weibull Lifetime Distribution")
+![Expected Solar Panel Failures Over Time Based on Weibull Lifetime Distribution](Failureplot.png "Expected Solar Panel Failures Over Time Based on Weibull Lifetime Distribution")
 
 ## Outputs
 
