@@ -24,7 +24,7 @@ Our R code is meant to have two functions:
 
 This is based off of our main fishbone analysis for what the two root causes of solar panel failures can be narrowed down to: 
 
-![Fishbone Diagram](/cloud/project/Images/fishbone.png "Fishbone Analysis confirming longevity and environmental conditions as main failure modes")
+![Fishbone Diagram](Images/fishbone.png "Fishbone Analysis confirming longevity and environmental conditions as main failure modes")
 
 ## Analysis
 
