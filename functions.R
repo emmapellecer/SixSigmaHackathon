@@ -338,4 +338,3 @@ solar_spc <- function(data){
 }
 
 
-
