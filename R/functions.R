@@ -1,5 +1,3 @@
-
-
 #' @name fsolar
 #' @title Failure Function (probability of failure)
 #' @param time [numeric] number of years passed
