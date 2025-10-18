@@ -24,7 +24,7 @@ Our R code is meant to have two functions:
 
 This is based off of our main fishbone analysis for what the two root causes of solar panel failures can be narrowed down to: 
 
-![Fishbone Diagram](Images/fishbone.png "Fishbone Analysis confirming longevity and environmental conditions as main failure modes")
+![Fishbone Diagram](fishbone.png "Fishbone Analysis confirming longevity and environmental conditions as main failure modes")
 
 ## Analysis
 
@@ -46,7 +46,7 @@ that is frequently collected from ground based devices like pyranometers, but ca
 
 to be inputted into the solar flux calculation function: 
 
-![Description of Angles for Solar Panel](/SixSigmaHackathon/Images/Angle Graph.png "Description of Angles for Solar Panel [3]")
+![Description of Angles for Solar Panel](Angle Graph.png "Description of Angles for Solar Panel [3]")
 
 >Our Demonstration Solar Farm is Located in Syracuse, New York and runs year round, with a solar panel tilt angle of 30 degrees and a 0 degree azimuth. 
 
@@ -61,11 +61,11 @@ based on where the solar farm is and how it is set up.
 
 From this information and location, we made the following average solar irradiance per hour plot over the course of 12 months: 
 
-![Ideal Solar Flux Syracuse Over the Year](/cloud/project/Images/Ideal Solar Flux.png "Ideal Syracuse Solar Flux Annually")
+![Ideal Solar Flux Syracuse Over the Year](Ideal Solar Flux.png "Ideal Syracuse Solar Flux Annually")
 
 Then calculated the solar flux from the given irradiance given the equations below: 
 
-![Solar Panel Equation Chart](/cloud/project/Images/equations.png)
+![Solar Panel Equation Chart](equations.png)
 
 
 
@@ -80,7 +80,7 @@ This ideal data can then be compared against true solar flux being measured at t
 The two sample data arrays that we have representing true solar flux collected are as follows compared to the ideal Syracuse solar flux: 
 
 
-![Data Arrays with Ideal Solar Flux](/cloud/project/Images/Data Array Graph.png "Data Arrays with ideal Solar Flux")
+![Data Arrays with Ideal Solar Flux](Data Array Graph.png "Data Arrays with ideal Solar Flux")
 
 ## Tracking Solar Farm Failures
 *Process Control Charts to Quantify Standard Deviation Divergence*
