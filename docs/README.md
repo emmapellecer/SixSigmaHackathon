@@ -192,9 +192,9 @@ Photovoltaic Modules in Australia. Sustainability, 14(9), 5336. https://doi.org/
 | IncidentFlux          | W/m^2/numeric          | 273.76            |Total solar flux  whole solar panel farm (sum of flux from all zones)|
 | ZoneFluxes_Zone1        | W/m^2/numeric  | 23.18   | Total flux for for zone 1 of solar panel farm|
 | ZoneFluxes_Zone2        | W/m^2/numeric          | 178.61            |Total flux for for zone 2 of solar panel farm |
-| ZoneFluxes_Zone3        | W/m^2/numeric          | 12.92            |Total flux for for zone 2 of solar panel farm |
-| ZoneFluxes_Zone4        | W/m^2/numeric          | 79.32            | Total flux for for zone 2 of solar panel farm|
-| ZoneFluxes_Zone5        | W/m^2/numeric          | 245.12            | Total flux for for zone 2 of solar panel farm|
+| ZoneFluxes_Zone3        | W/m^2/numeric          | 12.92            |Total flux for for zone 3 of solar panel farm |
+| ZoneFluxes_Zone4        | W/m^2/numeric          | 79.32            | Total flux for for zone 4 of solar panel farm|
+| ZoneFluxes_Zone5        | W/m^2/numeric          | 245.12            | Total flux for for zone 5 of solar panel farm|
 
 *Solar Irradiance Input*
 
