@@ -116,9 +116,7 @@ $$
 F(t) = 1 - e^{-\left(\frac{t}{c}\right)^m}
 $$
 
-$$
-P(\text{Outcome} = 1 \mid \text{Condition} = 1) = \frac{P(\text{Outcome} = 1 \,\&\, \text{Condition} = 1)}{P(\text{Condition} = 1)}
-$$
+P(Outcome = 1 | Condition = 1) = P(Outcome = 1 AND Condition = 1) / P(Condition = 1)
 
 $$
 F_{\text{cond}}(t) = \frac{F(t + \text{age}) - F(\text{age})}{1 - F(\text{age})}
