@@ -2,3 +2,9 @@
 .Rhistory
 .RData
 .Ruserdata
+demotool.Rcheck/
+demotool*.tar.gz
+demotool*.tgz
+solartool.Rcheck/
+solartool*.tar.gz
+solartool*.tgz
