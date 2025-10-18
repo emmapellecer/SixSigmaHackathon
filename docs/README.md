@@ -46,7 +46,7 @@ that is frequently collected from ground based devices like pyranometers, but ca
 
 to be inputted into the solar flux calculation function: 
 
-![Description of Angles for Solar Panel](/cloud/project/Images/Angle Graph.png "Description of Angles for Solar Panel [3]")
+![Description of Angles for Solar Panel](/SixSigmaHackathon/Images/Angle Graph.png "Description of Angles for Solar Panel [3]")
 
 >Our Demonstration Solar Farm is Located in Syracuse, New York and runs year round, with a solar panel tilt angle of 30 degrees and a 0 degree azimuth. 
 
