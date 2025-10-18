@@ -1,6 +1,6 @@
 
 
 
-webpage <- read_html("https://emmapellecer.github.io/SixSigmaHackathon/README.html")
+read_html("https://emmapellecer.github.io/SixSigmaHackathon/README.html")
 
 
