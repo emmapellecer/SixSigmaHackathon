@@ -1,0 +1,39 @@
+# buildme.R
+
+# set working directory to package root
+setwd("/cloud/project/demos/")
+
+# Unload your package and uninstall it first.
+unloadNamespace("demotool"); remove.packages("demotool")
+# Auto-document your package, turning roxygen comments into manuals in the `/man` folder
+devtools::document(".")
+# Load your package temporarily!
+devtools::load_all(".")
+
+# Test functions
+demotool::plus_one(x = 1)
+unloadNamespace("demotool")
+
+devtools::document("."); # document the package
+unloadNamespace("demotool"); # unload the package
+
+# Build the package
+devtools::build(pkg = ".", path = getwd(), binary = FALSE, vignettes = FALSE)
+
+# Restart R
+rstudioapi::restartSession()
+
+# Install your package from a local build file
+# such as 
+# install.packages("nameofyourpackagefile.tar.gz", type = "source")
+# or in our case:
+install.packages("demotool.gz", type = "source")
+
+# Load your package!
+library("demotool")
+
+# When finished, remember to unload the package
+unloadNamespace("demotool"); remove.packages("demotool")
+
+# Always a good idea to clear your environment and cache
+rm(list = ls()); gc()
