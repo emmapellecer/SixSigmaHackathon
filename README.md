@@ -171,7 +171,7 @@ These outputs are intended to provide a holistic failure tracking and maintenanc
 Our function for running our database is main_run.R in our project database, with the following example inputs that our customer would put in to generate 
 our analysis: 
 
-```{r}
+```R
 ##EXAMPLE RUNS WITH VARIABLE INPUTS 
 results_sample1 = finalrun(0.04, 300, "syracuse_hourly.csv", 43, 30, 0,0,"Sample Data & Generation/sampledata1.csv")
 results_sample2 = finalrun(0.04, 300, "syracuse_hourly.csv", 43, 30, 0,5,"Sample Data & Generation/sampledata2.csv")
