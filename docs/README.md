@@ -1,18 +1,3 @@
-
----
-title: "README"
-output:
-  html_document:
-    theme: flatly     
-    toc: true         
-    toc_float: true   
-editor_options:
-  markdown:
-    wrap: 72
----
-
-
-
 # SYSEN 5300 Solar Panel Code Presentation
 
 Charlotte Pendock, Emma Pellecer, Julianne Berry-Stoelze, Domi Swedek
