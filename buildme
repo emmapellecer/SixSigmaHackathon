@@ -11,7 +11,8 @@ devtools::document(".")
 devtools::load_all(".")
 
 # Test functions
-demotool::plus_one(x = 1)
+demotool::main_function(0.04, 300, "syracuse_hourly.csv", 43, 30, 0,0,"Sample Data & Generation/sampledata1.csv")
+
 unloadNamespace("demotool")
 
 devtools::document("."); # document the package
